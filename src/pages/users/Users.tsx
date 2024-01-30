@@ -1,9 +1,7 @@
-import './users.scss'
+import './users.scss';
 
 const Users = () => {
-  return (
-    <div>Users</div>
-  )
-}
+  return <div className='users'>Users</div>;
+};
 
-export default Users
+export default Users;
