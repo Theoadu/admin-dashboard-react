@@ -4,6 +4,7 @@ import TopBox from '../../components/topBox/topBox';
 import {
   barChartBoxRevenue,
   barChartBoxVisit,
+  bigChartAnalysis,
   chartBoxConversion,
   chartBoxProduct,
   chartBoxRevenue,
@@ -12,6 +13,7 @@ import {
 } from '../../data';
 import BarChartBox from '../../components/barChartBox/BarChartBox';
 import PieChartBox from '../../components/pieChartBox/PieChartBox';
+import BigChartBox from '../../components/bigChartBox/BigChartBox';
 
 const Home = () => {
   return (
@@ -34,7 +36,9 @@ const Home = () => {
       <div className='box box6'>
         <ChartBox {...chartBoxConversion} />
       </div>
-      <div className='box box7'>Box7</div>
+      <div className='box box7'>
+        <BigChartBox data={bigChartAnalysis} />
+      </div>
       <div className='box box8'>
         <BarChartBox {...barChartBoxVisit} />
       </div>

@@ -732,3 +732,48 @@ export const pieChartDevices = [
   { name: 'Laptop', value: 300, color: '#FFBB28' },
   { name: 'Tablet', value: 200, color: '#FF8042' },
 ];
+
+export const bigChartAnalysis = [
+  {
+    name: 'Sun',
+    books: 3000,
+    clothes: 1398,
+    electronics: 2210,
+  },
+  {
+    name: 'Mon',
+    books: 2000,
+    clothes: 9800,
+    electronics: 2290,
+  },
+  {
+    name: 'Tue',
+    books: 2780,
+    clothes: 3908,
+    electronics: 2000,
+  },
+  {
+    name: 'Wed',
+    books: 1890,
+    clothes: 4800,
+    electronics: 2181,
+  },
+  {
+    name: 'Thu',
+    books: 2390,
+    clothes: 3800,
+    electronics: 2500,
+  },
+  {
+    name: 'Fri',
+    books: 3490,
+    clothes: 4300,
+    electronics: 2100,
+  },
+  {
+    name: 'Sat',
+    books: 3490,
+    clothes: 3300,
+    electronics: 5100,
+  },
+];

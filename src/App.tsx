@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
-import './styles/global.scss'
+import './styles/global.scss';
 
 
 import Home from './pages/home/Home';
@@ -8,7 +8,7 @@ import Products from './pages/products/Products';
 import Navbar from './components/navbar/Navbar';
 import Footer from './components/footer/Footer';
 import Menu from './components/menu/Menu';
-import Login from './pages/login/login';
+import Login from './pages/login/Login';
 
 function App() {
   const Layout = () => {
