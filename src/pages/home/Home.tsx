@@ -13,7 +13,7 @@ import {
 import BarChartBox from '../../components/barChartBox/BarChartBox';
 import PieChartBox from '../../components/pieChartBox/PieChartBox';
 import BigChartBox from '../../components/bigChartBox/BigChartBox';
-import TopBox from '../../components/topBox/topBox';
+import TopBox from '../../components/topBox/TopBox';
 
 const Home = () => {
   return (
