@@ -1,6 +1,5 @@
 import './home.scss';
 import ChartBox from '../../components/chartBox/ChartBox';
-import TopBox from '../../components/topBox/topBox';
 import {
   barChartBoxRevenue,
   barChartBoxVisit,
@@ -14,6 +13,7 @@ import {
 import BarChartBox from '../../components/barChartBox/BarChartBox';
 import PieChartBox from '../../components/pieChartBox/PieChartBox';
 import BigChartBox from '../../components/bigChartBox/BigChartBox';
+import TopBox from '../../components/topBox/topBox';
 
 const Home = () => {
   return (
